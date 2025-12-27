@@ -1,0 +1,6 @@
+INFO 2025-12-27 02:56:22,646 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 02:56:22,718 otp_service Twilio OTP service initialized successfully
+INFO 2025-12-27 02:56:22,736 session_manager Redis session manager initialized successfully
+INFO 2025-12-27 02:56:22,964 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-12-27 02:56:22,964 server Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-12-27 02:56:22,964 server Listening on TCP address 0.0.0.0:8000

@@ -1,0 +1,49 @@
+[0;34m
+============================================
+   🌾 Gram Meter Platform Startup
+============================================
+[0m
+[1;33m🧹 Cleaning up old processes...[0m
+[1;33m⚠️  Port 8000 in use, stopping existing process...[0m
+[1;33m⚠️  Port 5173 in use, stopping existing process...[0m
+[1;33m⚠️  Port 5174 in use, stopping existing process...[0m
+
+[0;34m🚀 Starting services...[0m
+
+[1;33m1️⃣  Starting Django Backend...[0m
+   PID: 88476
+[1;33m2️⃣  Starting Frontend (User App)...[0m
+   PID: 88477
+[1;33m3️⃣  Starting Admin Console...[0m
+   PID: 88478
+
+[0;34m⏳ Waiting for services to start...[0m
+[0;32m✅ Django Backend is ready on port 8000[0m
+[0;32m✅ Frontend User App is ready on port 5173[0m
+[0;32m✅ Admin Console is ready on port 5174[0m
+
+[0;32m============================================[0m
+[0;32m   ✅ All Services Running![0m
+[0;32m============================================[0m
+
+   [0;34m🌐 User App:[0m      http://localhost:5173
+   [0;34m🔧 Admin Console:[0m http://localhost:5174
+   [0;34m🖥️  Backend API:[0m   http://localhost:8000/api/v1/
+
+[1;33m📋 Admin Login Credentials:[0m
+   Username: admin
+   Password: admin123
+
+[1;33m📋 Test User Credentials:[0m
+   Phone: 9876543210 (farmer_ramesh)
+   Phone: 9876543211 (farmer_priya)
+
+[0;34m📁 Logs are available at:[0m
+   - logs/backend.log
+   - logs/frontend.log
+   - logs/admin_console.log
+
+[1;33mPress Ctrl+C to stop all services[0m
+
+./start_platform.sh: line 150: 88477 Hangup: 1               npm run dev > "$SCRIPT_DIR/logs/frontend.log" 2>&1  (wd: ~/SH3/frontend)
+./start_platform.sh: line 150: 88478 Hangup: 1               npm run dev -- --port 5174 > "$SCRIPT_DIR/logs/admin_console.log" 2>&1  (wd: ~/SH3/Admin console)

@@ -1,0 +1,9 @@
+
+> village-grid-dashboard@0.1.0 dev
+> vite --port 5174
+
+
+  VITE v5.4.21  ready in 84 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
